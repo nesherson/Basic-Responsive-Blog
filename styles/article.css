@@ -1,0 +1,30 @@
+article {
+    display: grid;
+    grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
+    padding: 0.5in 0;
+    background: linear-gradient(hsl(55, 100%, 96%), white);
+}
+
+@media (max-width: 8.5in) {
+    article {
+        grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
+    }
+}
+
+article * {
+    grid-column: start / end;
+
+}
+
+.debug-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, p {
+    margin-bottom: 2.4rem;
+}
+
+
+

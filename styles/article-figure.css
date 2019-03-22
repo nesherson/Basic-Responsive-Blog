@@ -1,0 +1,13 @@
+.size-1 {
+    grid-column: 2 / 7;
+}
+
+.size-1 img {
+    width: 100%
+}
+
+Figcaption {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
