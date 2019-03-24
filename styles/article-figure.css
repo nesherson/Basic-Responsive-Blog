@@ -1,12 +1,12 @@
-.size-1 {
+.cosmos-image {
     grid-column: 2 / 7;
 }
 
-.size-1 img {
+.cosmos-image img {
     width: 100%
 }
 
-figcaption {
+.cosmos-image-caption {
     display: flex;
     justify-content: center;
     margin-top: 0.5rem;

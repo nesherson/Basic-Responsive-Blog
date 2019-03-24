@@ -1,7 +1,6 @@
 h1 {
     font: 700 2rem/1.2 "Roboto";
     color: hsl(0, 0%, 33%);
-
 }
 
 h2 {
@@ -9,41 +8,55 @@ h2 {
     color: hsl(0, 0%, 0%);
 }
 
-h3 {
+.quote {
     font: 700 1rem/1.2 "Roboto";
     color: hsl(250, 100%, 67%);
 }
-p {
+.blog-text {
     font: 400 1rem/1.5 "Roboto";
     color: hsl(0, 0%, 0%);
 }
 
-time {
+.blog-post-time {
     font: 700 1rem/1.2 "Roboto";
     color: hsl(250, 100%, 83%);
+    margin-bottom: 14px;
 }
 
-Figcaption p {
+figcaption p {
     font: 400 1rem/1.2 "Roboto";
     color: hsl(0, 0%, 50%);
 }
 
-/*a {
-    box-shadow: inset 0 -0.25em hsl(55, 100%, 75%);
-}*/
-
 .underline {
     box-shadow: inset 0 -0.25em hsl(55, 100%, 75%);
+}
+
+.quote {
+    margin-bottom: 0.2rem;
 }
 
 @media (max-width: 8.5in) {
     :root {
         font-size: 18px;
     }
+
+    .blog-text {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    
+    .blog-post-time {
+        padding-left: 1.5em;
+    }
+
+    .quote {
+        padding-left: 1.5rem;
+    }
 }
 
 @media (max-width: 5in) {
     :root {
         font-size: 16px;
-    }
+    } 
 }
