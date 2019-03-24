@@ -2,7 +2,7 @@
 
 This is a basic blog with some moderate responsiveness that I made while following tutorial from Scrimba
 
-![Screenshot](docs/images/Basic-Responsive-Blog-Image.png)
+![Screenshot](https://github.com/nesherson/Basic-Responsive-Blog/blob/master/images/Basic-Responsive-Blog-Image.png)
 
 ## Getting started
 
